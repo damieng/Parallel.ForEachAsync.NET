@@ -16,4 +16,4 @@ This is an almost 100% port of the code from https://github.com/dotnet/runtime/ 
 
 ## License
 
-.NET (including the runtime repo) is licensed under the [MIT](LICENSE.txt) license.
+.NET (including the runtime repo) is licensed under the [MIT](https://github.com/damieng/ParallelForEachAsync.NET/blob/main/LICENCE.txt) license.
