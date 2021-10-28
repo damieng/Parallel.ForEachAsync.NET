@@ -13,7 +13,7 @@ namespace System.Threading.Tasks
     /// The <see cref="System.Threading.Tasks.Parallel"/> class provides library-based data parallel replacements
     /// for common operations such as for loops, for each loops, and execution of a set of statements.
     /// </remarks>
-    public static class Parallel
+    public static class ParallelPoly
     {
         static TaskScheduler GetEffectiveTaskScheduler(ParallelOptions parallelOptions) => parallelOptions.TaskScheduler ?? TaskScheduler.Current;
         static int GetEffectiveMaxConcurrencyLevel(ParallelOptions parallelOptions)
