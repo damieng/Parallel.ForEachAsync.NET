@@ -4,7 +4,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace System.Threading.Tasks
+namespace Polyfill.Threading.Tasks
 {
     /// <summary>
     /// Provides support for parallel loops and regions.
@@ -13,7 +13,7 @@ namespace System.Threading.Tasks
     /// The <see cref="System.Threading.Tasks.Parallel"/> class provides library-based data parallel replacements
     /// for common operations such as for loops, for each loops, and execution of a set of statements.
     /// </remarks>
-    public static class ParallelPoly
+    public static class Parallel
     {
         static TaskScheduler GetEffectiveTaskScheduler(ParallelOptions parallelOptions) => parallelOptions.TaskScheduler ?? TaskScheduler.Current;
         static int GetEffectiveMaxConcurrencyLevel(ParallelOptions parallelOptions)
